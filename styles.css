@@ -1,0 +1,41 @@
+body{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin: 0px;
+}
+
+h1{
+    text-shadow: -5px -5px 5px #bc00dd ;
+}
+
+#ai{
+    background:linear-gradient(to left, rgba(300, 300, 300, 0), rgba(200, 100,200, 1)), url('/img/stepinto.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.underline{
+    font-weight: 700;
+}
+.btn{
+    font-family: inherit;
+    margin-left: 10px;
+    background-color: #973aa8;
+    text-shadow: 0px 0px 20px #973aa8;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.content-container {
+    text-align: center;
+    padding: 20px; 
+    border-radius: 10px;
+    height: auto;
+}
